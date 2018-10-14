@@ -15,11 +15,12 @@ Based on the previous researches, both CO and FHMM have decline performance with
 
 ## Demo
 
-DemoA identifies load signature performance of Group A appliances based on various classifiers with event detection.
-DemoB identifies load signature performance of Group B appliances based on various classifiers with pattern recognization.
+DemoA identifies classifier A performance of Group A appliance load signatures with event detection.
+
+DemoB identifies classifier B performance of Group B appliance load signatures with pattern recognization.
 
 ## Future works
 
 Classifier A, which aimed to identify Group A appliance states, uses active power and reactive power in stable power signal as features to classify with SVM and Naïve Bayes. Classifier B, which aimed to identify Group B appliance state, utilizes disaggregated signals from FHMM and CO as features to classify with Naïve Bayes and Neural Network. 
 
-The disaggregation algorithms for group B appliance may possibly be further modified. Because there are numbers of enhanced algorithms based on FHMM, it is possible to replace the existing one with the latest. Also, the features inputs to the classifier can be modular and combine more disaggregation results. Finally, thanks to the blooming technology development, the tools become more efficient and easy to access to construct this hybrid method for load disaggregation and classification with load signatures. Hopefully, futures researches complement this method with strengthen performance.
+The disaggregation algorithms for group B appliance may possibly be further modified. Because there are numbers of enhanced algorithms based on FHMM, it is possible to replace the existing one with the latest. Also, the features inputs to the classifier can be modular and combine more disaggregation results. 
